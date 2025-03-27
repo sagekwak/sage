@@ -1,0 +1,43 @@
+button {
+    background-color: rgb(255, 255, 255); 
+    border: 30px; 
+    color: rgb(35, 120, 217); 
+    padding: 5px 10px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 12px; 
+    margin: 2px 2px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+body {
+    background-color: rgb(35, 120, 217); 
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    color: white; 
+    text-align: center;
+    font-size: x-large;
+}
+h2 {
+    color: white; 
+    text-align: center;
+    font-size: 13px;
+    font-weight: 150;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 14px; font-style: italic; 
+    color: rgb(234, 234, 234);
+}
+#output {
+    opacity: 10;
+    transition: opacity 0.5s ease-in-out;
+}
+.show {
+    opacity: 100;
+}
